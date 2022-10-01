@@ -1,0 +1,135 @@
+    header {
+         background: #F2B807;
+         padding: 1px 0;
+      }
+
+    .cabecalho{
+      position: relative;
+      width: 940px;
+      margin: 40 auto;
+    }
+
+    nav {
+      position: absolute;
+      top: 95px;
+      right: 0;
+    }
+
+    nav li {
+      display: inline;
+      margin: 0 0 0 15px;
+    }
+
+    nav a {
+      text-transform: uppercase;
+      color: white;
+      font-weight: bold;
+      font-size: 30px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #000000;
+      text-decoration: underline;
+    }
+
+    .lista{
+      width: 50px;
+      margin: 5 auto;
+      padding: 10px 0;
+    }
+
+    .lista li {
+      display:inline-block;
+      text-align:center;
+      width: 30%;
+      margin-right: 0%;
+      padding: 10px 10px;
+      box-sizing: border-box;
+      vertical-align: top;
+              
+     }
+
+    .lista li:hover{
+      border-color: #3f00ff;
+    }
+
+    .lista li:active{
+      border-color: #93c47d;
+    }
+
+    .lista li:hover h2{
+      font-size: 50px;
+    }
+
+    .lista h2 {
+      font-size: 100px;
+      font-weight: bold;
+    }
+
+    .principal{
+      background-color: #04041e;
+      padding: 30px;
+      color: white;
+      font-size: 25px;
+      text-align: center
+      }
+
+    .titulo-principal{
+      width: 1350px;
+      margin-top: 10px;
+      padding: 15px 0; 
+      font-size: 50px;
+      text-align: center; 
+    }
+
+     .titulo-centralizado{
+      text-align: center
+    }
+
+    p {
+      text-align: center;
+    }
+
+    .itens{
+    display: inline-block;
+		text-align: top;
+		width: 100%;
+		vertical-align: top;
+		margin: 0 1.5%;
+		padding: 10px 10px;
+		box-sizing: border-box;
+			
+    }
+
+    .beneficios {
+      background: #FFFFFF;
+      padding: 5px;
+      font-size: 40px;
+      text-align: right;
+      font-weight: bold;
+      color: chocolate;
+     }
+
+     ul{
+      display:inline-block;
+      vertical-align: top;
+     }
+
+    .imagembeneficios{
+      width: 600px;
+      
+      
+    }
+
+    footer {
+      text-align: center;
+      background: url("bg.jpg");
+      padding: 10px 0;
+    }
+
+    .copyright{
+      color: #FFFFFF;
+      font-size: 18px;
+      margin: 20px 0 0;
+    }
